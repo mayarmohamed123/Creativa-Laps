@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import ClassComponent from "./Component/ClassComponent/ClassComponent";
 import FunctionComponent from "./Component/FunctionComponent/FunctionComponent";
