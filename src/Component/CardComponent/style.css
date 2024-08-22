@@ -1,0 +1,23 @@
+.card {
+  width: 200px;
+  background-color: #eee;
+  margin: 15px auto;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  border-style: none;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+.card-btn {
+  padding: 5px;
+  border-radius: 30px;
+  background-color: yellow;
+  margin: 0 5px;
+}
+input {
+  margin: 10px 5px;
+}
