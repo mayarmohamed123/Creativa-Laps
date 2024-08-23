@@ -1,7 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import CardComponent from "./Component/CardComponent/CardComponent";
-import HomePageButton from "./Component/HomePageButton/HomePageButton";
+// import CardComponent from "./Component/CardComponent/CardComponent";
+// import HomePageButton from "./Component/HomePageButton/HomePageButton";
+import Products from "./Component/Products/Products";
 // import ClassComponent from "./Component/ClassComponent/ClassComponent";
 // import FunctionComponent from "./Component/FunctionComponent/FunctionComponent";
 // import FunctionProps from "./Component/FunctionProps/FunctionProps";
@@ -27,8 +28,9 @@ function App() {
       </ClassProps>
       <StateComponent />
       <Form /> */}
-      <CardComponent />
-      <HomePageButton />
+      {/* <CardComponent />
+      <HomePageButton /> */}
+      <Products />
     </div>
   );
 }

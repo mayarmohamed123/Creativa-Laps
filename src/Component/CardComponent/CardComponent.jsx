@@ -26,7 +26,7 @@ class CardComponent extends Component {
   }
   render() {
     return (
-      <div className="card">
+      <div className="card-component">
         <button className="card-btn" onClick={this.decrementFunction}>
           -
         </button>
