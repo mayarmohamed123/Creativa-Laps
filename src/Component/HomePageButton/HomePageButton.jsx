@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SignUp from "../SignUp/SignUp";
 import LogIn from "../LogIn/LogIn";
+import "./style.css";
 
 class HomePageButton extends Component {
   constructor() {
@@ -18,8 +19,10 @@ class HomePageButton extends Component {
   }
   render() {
     return (
-      <div>
-        <button onClick={this.changeButton}>Sign Up</button>
+      <div className="homepage-button-container">
+        <button className="homepage-button" onClick={this.changeButton}>
+          Sign Up
+        </button>
         {this.state.isSingnedUp ? <SignUp /> : <LogIn />}
       </div>
     );
