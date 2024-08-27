@@ -4,8 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-/FormComponent
-/GetTime
+FormComponent/
+GetTime/
 
 # testing
 /coverage
