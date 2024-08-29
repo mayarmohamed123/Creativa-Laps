@@ -1,15 +1,19 @@
 import "./App.css";
-import ComponentOne from "./Component/ComponentTree/ComponentOne/ComponentOne";
-import HomePageButton from "./Component/HomePageButton/HomePageButton";
-import { UserProvider } from "./context/context";
+// import ComponentOne from "./Component/ComponentTree/ComponentOne/ComponentOne";
+import GetComponent from "./Component/GetComponent/GetComponent";
+// import HomePageButton from "./Component/HomePageButton/HomePageButton";
+import PostComponent from "./Component/PostComponent/PostComponent";
+// import { UserProvider } from "./context/context";
 
 function App() {
   return (
     <div className="App">
-      <HomePageButton />
+      {/* <HomePageButton />
       <UserProvider value="passedvalue">
         <ComponentOne />
-      </UserProvider>
+      </UserProvider> */}
+      <GetComponent />
+      <PostComponent />
     </div>
   );
 }
