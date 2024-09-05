@@ -80,7 +80,7 @@ class LoginPage extends Component {
             </button>
           </div>
           <div className="form-group">
-            <a href="#" className="forgot-password">
+            <a href="" className="forgot-password">
               Forgot Password?
             </a>
           </div>

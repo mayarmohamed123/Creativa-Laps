@@ -17,7 +17,7 @@ class CardComponent extends Component {
   }
   decrementFunction() {
     if (this.state.count === 1) {
-      alert("Count cannot be 0");
+      alert("Cannot decrement further");
       return;
     }
     this.setState({

@@ -1,0 +1,140 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+}
+
+.signup-container {
+  background-color: white;
+  padding: 40px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 100px;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.login-section {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.login-section p {
+  font-size: 14px;
+  color: #555;
+}
+
+.login-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-section a:hover {
+  text-decoration: underline;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #f4f4f4;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.password-requirements {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.password-requirements p {
+  margin: 2px 0;
+  width: 48%;
+}
+
+.form-checkbox {
+  margin-right: 8px;
+}
+
+.form-checkbox + .form-label {
+  display: inline-block;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 25px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+.signup-button:hover {
+  background-color: #bbb;
+}
+
+.terms-section {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
+
+.terms-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms-section a:hover {
+  text-decoration: underline;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 597px;
+  border-radius: 8px;
+}

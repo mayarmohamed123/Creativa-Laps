@@ -1,0 +1,130 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/Backdrop.jpg");
+  background-size: cover;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.logo {
+  width: 42px;
+  height: 42px;
+  background-color: #c4c4c4;
+  border-radius: 24px;
+  position: absolute;
+  left: 47%;
+  margin: 10px 0;
+  top: 5%;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.signup-section p {
+  margin-bottom: 24px;
+}
+
+.loginwith {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.social-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 24px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-login i {
+  margin-right: 8px;
+}
+
+.facebook {
+  color: #3b5998;
+  margin-right: 10px;
+}
+
+.facebook:hover {
+  background-color: #f0f2f5;
+}
+
+.google {
+  color: #db4437;
+}
+
+.google:hover {
+  background-color: #fbeaea;
+}
+
+.or-divider {
+  margin: 16px 0;
+  color: #999;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #007bff;
+  text-align: right;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
