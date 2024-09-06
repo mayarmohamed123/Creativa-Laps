@@ -1,5 +1,12 @@
 import "./App.css";
-import SignupWithHooks from "./Component/SignupWithHooks/SignupWithhooks";
+// import ClearWithHooks from "./Component/ClearWithHooks/ClearWithHooks";
+import CounterWithHooks from "./Component/CounterWithHooks/CounterWithHooks";
+import GetWithHooks from "./Component/GetWithHooks/GetWithHooks";
+import GreetingWithHooks from "./Component/GreetingWithHooks/GreetingWithHooks";
+import MouseAndButton from "./Component/MouseAndButton/MouseAndButton";
+import SearchWithHooks from "./Component/SearchWithHooks.jsx/SearchWithHooks";
+import WindowResize from "./Component/WindowResize/WindowResize";
+// import SignupWithHooks from "./Component/SignupWithHooks/SignupWithhooks";
 // import HooksProduct from "./Component/HooksComponent/HooksProduct/HooksProduct";
 // import LoginWithHooks from "./Component/LoginWithHooks/LoginWithHooks";
 // import SignupWithHooks from "./Component/StateComponent/SignupWithHooks/SignupWithhooks";
@@ -20,7 +27,14 @@ function App() {
       <PostComponent /> */}
       {/* <HooksProduct /> */}
       {/* <LoginWithHooks /> */}
-      <SignupWithHooks />
+      {/* <SignupWithHooks /> */}
+      {/* <CounterWithHooks /> */}
+      {/* <GreetingWithHooks /> */}
+      {/* <ClearWithHooks /> */}
+      {/* <WindowResize /> */}
+      {/* <MouseAndButton /> */}
+      {/* <SearchWithHooks /> */}
+      {/* <GetWithHooks /> */}
     </div>
   );
 }
