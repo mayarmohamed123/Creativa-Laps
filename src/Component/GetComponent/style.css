@@ -1,0 +1,38 @@
+.get-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  background-color: #f4f4f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.get-component-item {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 5px solid #456a92;
+  transition: transform 0.3s ease;
+}
+
+.get-component-item h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.get-component-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+.get-component-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
